@@ -10,7 +10,7 @@ export default function Home() {
         <div className="w-full items-center flex justify-center pb-8">
           <div className="space-y-4">
             <img src="/img/logo.svg" alt="" />
-            <h2 className="text-black text-center">coming soon.</h2>
+            <h2 className="text-black text-center">coming to solana.</h2>
           </div>
         </div>
 
