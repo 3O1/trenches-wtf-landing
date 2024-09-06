@@ -5,7 +5,7 @@ export default function Home() {
   const twitterShareUrl = `https://twitter.com/intent/tweet?text=${tweetContent}`;
 
   return (
-    <div className="w-full h-screen flex items-center justify-center">
+    <div className="w-full h-screen flex pt-24 md:pt-0 md:items-center justify-center">
       <div>
         <div className="w-full items-center flex justify-center pb-8">
           <div className="space-y-4">
@@ -15,7 +15,9 @@ export default function Home() {
         </div>
 
         <div className="relative w-full max-w-3xl border border-appStroke p-1">
-          <div className="aspect-w-16 aspect-h-9">
+          {/* <div className="aspect-w-16 aspect-h-9"> */}
+          <div className="md:w-[640px] md:h-[360px]">
+            {/* You can adjust these values as needed */}
             <video
               src="/vid/trenches-video.mp4"
               className="w-full h-full object-cover"
