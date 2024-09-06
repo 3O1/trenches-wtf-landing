@@ -14,9 +14,9 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="relative w-full max-w-3xl border border-appStroke p-1">
+        <div className="relative md:w-full max-w-3xl border border-appStroke p-1 md:mx-0 mx-4">
           {/* <div className="aspect-w-16 aspect-h-9"> */}
-          <div className="md:w-[640px] md:h-[360px]">
+          <div className="md:w-[640px] md:h-[360px] w-full h-[300px]">
             {/* You can adjust these values as needed */}
             <video
               src="/vid/trenches-video.mp4"
